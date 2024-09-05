@@ -1,0 +1,50 @@
+/* CSS for Dashboard */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    padding-top: 20px;
+}
+
+.sidebar h2 {
+    color: white;
+    padding-left: 10px;
+}
+
+.action_btn {
+    margin-bottom: 10px;
+}
+
+.action_btn button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+    height: 40px;
+    border-radius: 5px;
+    width: 150px;
+}
+
+.action_btn button:hover {
+    background-color: #0056b3;
+}
+
+.Dashboard_welcome {
+    height: 100%;
+    width: calc(100% - 200px); /* Adjust width to accommodate sidebar */
+    padding-top: 20px;
+    position: fixed;
+    background-color: #f9f9f9;
+    top: 0;
+    right: 0;
+}
